@@ -15,11 +15,11 @@
           name = "paranoid-time.flix";
           version = "0.4.0";
           src = "src";
-          buildInputs = [ flix.packages.${system}.flix_0_79_0 ];
+          buildInputs = [ flix.packages.${system}.flix_0_80_0 ];
         };
 
         devShells.${system}.default = pkgs.mkShell {
-          packages = [ flix.packages.${system}.flix_0_79_0 ];
+          packages = [ flix.packages.${system}.flix_0_80_0 ];
         };
       }
     );
